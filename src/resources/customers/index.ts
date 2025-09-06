@@ -1,0 +1,45 @@
+// File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
+
+export {
+  Addresses,
+  type AddressCreate,
+  type AddressDetails,
+  type Success,
+  type AddressCreateResponse,
+  type AddressRetrieveResponse,
+  type AddressUpdateResponse,
+  type AddressListResponse,
+  type AddressCreateParams,
+  type AddressRetrieveParams,
+  type AddressUpdateParams,
+  type AddressListParams,
+  type AddressDeleteParams,
+} from './addresses';
+export {
+  Contacts,
+  type ContactCreate,
+  type ContactDetails,
+  type ContactCreateResponse,
+  type ContactRetrieveResponse,
+  type ContactUpdateResponse,
+  type ContactListResponse,
+  type ContactCreateParams,
+  type ContactRetrieveParams,
+  type ContactUpdateParams,
+  type ContactListParams,
+  type ContactDeleteParams,
+} from './contacts';
+export {
+  Customers,
+  type AttributeRequest,
+  type AttributeValue,
+  type CustomerDetails,
+  type SuccessPagination,
+  type CustomerCreateResponse,
+  type CustomerRetrieveResponse,
+  type CustomerUpdateResponse,
+  type CustomerListResponse,
+  type CustomerCreateParams,
+  type CustomerUpdateParams,
+  type CustomerListParams,
+} from './customers';
