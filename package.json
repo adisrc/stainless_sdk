@@ -1,6 +1,6 @@
 {
   "name": "test_wiz",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The official TypeScript library for the Test Wiz API",
   "author": "Test Wiz <tech@wizcommerce.com>",
   "types": "dist/index.d.ts",
