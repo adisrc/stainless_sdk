@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stainless-sdks/test_wiz-typescript.git"
+    "url": "git+https://github.com/adisrc/stainless_sdk.git"
   },
-  "homepage": "https://github.com/stainless-sdks/test_wiz-typescript/tree/main/packages/mcp-server#readme",
+  "homepage": "https://github.com/adisrc/stainless_sdk/tree/main/packages/mcp-server#readme",
   "documentation": "https://help.wizcommerce.com/",
   "server": {
     "type": "node",
