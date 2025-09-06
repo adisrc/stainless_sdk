@@ -9,8 +9,8 @@ It is generated with [Stainless](https://www.stainless.com/).
 Because it's not published yet, clone the repo and build it:
 
 ```sh
-git clone git@github.com:stainless-sdks/test_wiz-typescript.git
-cd test_wiz-typescript
+git clone git@github.com:adisrc/stainless_sdk.git
+cd stainless_sdk
 ./scripts/bootstrap
 ./scripts/build
 ```
@@ -41,7 +41,7 @@ For clients with a configuration JSON, it might look something like this:
   "mcpServers": {
     "test_wiz_api": {
       "command": "node",
-      "args": ["/path/to/local/test_wiz-typescript/packages/mcp-server", "--client=claude", "--tools=all"],
+      "args": ["/path/to/local/stainless_sdk/packages/mcp-server", "--client=claude", "--tools=all"],
       "env": {
         "TEST_WIZ_API_KEY": "My API Key",
         "TEST_WIZ_ENVIRONMENT": "production"
