@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "test_wiz/*": ["dist/src/*"],
-      "test_wiz": ["dist/src/index.ts"]
+      "test_wiz/*": ["./dist/src/*"],
+      "test_wiz": ["./dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,

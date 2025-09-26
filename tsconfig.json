@@ -7,10 +7,9 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "baseUrl": "./",
     "paths": {
-      "test_wiz/*": ["src/*"],
-      "test_wiz": ["src/index.ts"]
+      "test_wiz/*": ["./src/*"],
+      "test_wiz": ["./src/index.ts"]
     },
     "noEmit": true,
 
