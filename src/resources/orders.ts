@@ -66,7 +66,7 @@ export class Orders extends APIResource {
    *
    * @example
    * ```ts
-   * const orders = await client.orders.list();
+   * const orderListResponse = await client.orders.list();
    * ```
    */
   list(
