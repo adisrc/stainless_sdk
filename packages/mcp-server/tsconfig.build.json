@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "test_wiz-mcp/*": ["dist/src/*"],
-      "test_wiz-mcp": ["dist/src/index.ts"]
+      "test_wiz-mcp/*": ["./dist/src/*"],
+      "test_wiz-mcp": ["./dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,

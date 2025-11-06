@@ -33,7 +33,7 @@ export const newMcpServer = () =>
   new McpServer(
     {
       name: 'test_wiz_api',
-      version: '1.0.0',
+      version: '1.1.0',
     },
     { capabilities: { tools: {}, logging: {} } },
   );
@@ -148,7 +148,7 @@ export function initMcpServer(params: {
 export async function selectTools(endpoints: Endpoint[], options?: McpOptions): Promise<Endpoint[]> {
   const filteredEndpoints = query(options?.filters ?? [], endpoints);
 
-  let includedTools = filteredEndpoints;
+  let includedTools = filteredEndpoints.slice();
 
   if (includedTools.length > 0) {
     if (options?.includeDynamicTools) {
@@ -156,13 +156,13 @@ export async function selectTools(endpoints: Endpoint[], options?: McpOptions): 
     }
   } else {
     if (options?.includeAllTools) {
-      includedTools = endpoints;
+      includedTools = endpoints.slice();
     } else if (options?.includeDynamicTools) {
       includedTools = dynamicTools(endpoints);
     } else if (options?.includeCodeTools) {
       includedTools = [await codeTool()];
     } else {
-      includedTools = endpoints;
+      includedTools = endpoints.slice();
     }
   }
 
